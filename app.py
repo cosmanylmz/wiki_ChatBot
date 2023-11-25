@@ -3,7 +3,7 @@ import openai
   
 app = Flask(__name__) 
 # OpenAI API Key 
-openai.api_key = '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'
+openai.api_key = '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'
 
 def get_completion(prompt): 
     print(prompt) 
